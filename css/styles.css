@@ -1,3 +1,11 @@
-img {
-    float: left;
+.address{
+    float:clear ;
   }
+#address{
+  float: left;
+}
+body{
+  background-attachment: fixed;
+  background-image: url("../images/background_image.jpg");
+  background-repeat: no-repeat;
+}
