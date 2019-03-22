@@ -1,0 +1,55 @@
+body{
+  background-image: url("../images/background_image.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.taskbar{
+  width: 100%;
+  background-color: brown;
+}
+.taskbar,ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(108, 61, 219, 0.603);
+}
+.taskbar,li {
+  float: left;
+}
+.taskbar,li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.taskbar,li a:hover {
+  background-color: rgb(180, 85, 176);
+}
+.center {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 100px;
+}
+#left{
+  background-color: blue;
+  opacity: 0.5;
+  height: 400px;
+}
+#middle{
+  background-color: red;
+  opacity: 0.5;
+  height: 400px;
+}
+#right{
+  background-color: blueviolet;
+  opacity: 0.5;
+  height: 400px; 
+}
+.center{ 
+  float: right;
+  width:100%;
+  margin-left: 50px;
+  margin-top: 1 00px;
+}
