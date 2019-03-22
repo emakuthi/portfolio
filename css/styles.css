@@ -13,6 +13,10 @@ body{
 
 .profile{
   grid-column: span 3 / auto;
+  color: white;
+}
+#address{
+  float: right;
 }
 .section1{ 
   background-color: blue; 
@@ -53,5 +57,8 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+  }
+  .navcontent{
+    margin-top: 50px;
   }
     
