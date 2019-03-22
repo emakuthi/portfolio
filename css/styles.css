@@ -17,6 +17,8 @@ body{
 }
 #address{
   float: right;
+  font-family: 'Germania One', cursive;
+  font-size: 30px;
 }
 .section1{ 
   background-color: black; 
@@ -34,7 +36,7 @@ body{
     color: white;
   }
   .myinfo{
-    margin-left: 20px;
+    margin-left: 20px;  
   }
   .objectives{
     margin: 20px;
@@ -63,5 +65,11 @@ body{
   }
   .navcontent{
     margin-top: 50px;
+  }
+  ul{
+    list-style-type: square;
+  }
+  img{
+    border-radius: 25px;
   }
     
